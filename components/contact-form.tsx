@@ -166,7 +166,7 @@ export default function ContactForm() {
                     name="name"
                     value={formState.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="example Anshuman Dixit"
                     className={errors.name ? "border-red-500" : ""}
                   />
                   {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
@@ -184,7 +184,7 @@ export default function ContactForm() {
                     type="email"
                     value={formState.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="example@example.com"
                     className={errors.email ? "border-red-500" : ""}
                   />
                   {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
@@ -201,7 +201,7 @@ export default function ContactForm() {
                     name="company"
                     value={formState.company}
                     onChange={handleChange}
-                    placeholder="Acme Inc."
+                    placeholder="Acme Inc example."
                     className={errors.company ? "border-red-500" : ""}
                   />
                   {errors.company && <p className="text-red-500 text-sm">{errors.company}</p>}
