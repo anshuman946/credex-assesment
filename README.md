@@ -50,10 +50,10 @@ Approximately 48 hours from concept to completion:
 
 \`\`\`bash
 # Clone the repository
-git clone https://github.com/yourusername/softsell.git
+
 
 # Navigate to the project directory
-cd softsell
+cd name of your project folder
 
 # Install dependencies
 npm install
@@ -62,9 +62,6 @@ npm install
 npm run dev
 \`\`\`
 
-## Deployment
-
-The site is deployed on Vercel and can be accessed at [softsell.vercel.app](https://softsell.vercel.app)
 
 ## Future Enhancements
 
